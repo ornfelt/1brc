@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-1brc",
+  "version": "1.0.0",
+  "description": "Exploring 1 billion row challenge with node.js",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HectorVeraO/nodejs-1brc.git"
+  },
+  "keywords": [
+    "1brc",
+    "node.js"
+  ],
+  "author": "Héctor Vera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HectorVeraO/nodejs-1brc/issues"
+  },
+  "homepage": "https://github.com/HectorVeraO/nodejs-1brc#readme",
+  "devDependencies": {
+    "@types/node": "20.11.0",
+    "prettier": "^3.2.4"
+  }
+}

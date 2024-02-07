@@ -1,0 +1,14 @@
+# Ignore all files without extention
+*
+!/**/
+!*.*
+
+!Makefile
+!LICENSE
+
+.vscode
+out
+probe
+1brc
+out.data
+out.time

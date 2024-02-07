@@ -1,0 +1,65 @@
+# c
+https://github.com/dannyvankooten/1brc
+https://github.com/austindonisan/1brc
+
+# c++
+https://github.com/lehuyduc/1brc-simd
+https://github.com/rockwotj/1brc
+
+# c#
+https://github.com/buybackoff/1brc
+https://github.com/noahfalk/1brc
+https://github.com/nietras/1brc.cs
+https://github.com/CameronAavik/1brc
+https://github.com/pedrosakuma/1brc
+
+# cobol
+https://github.com/nibrobb/1brc-cobol
+
+# elixir
+https://github.com/rrcook/brc
+
+# erlang
+https://github.com/onno-vos-dev/1brc
+
+# f#
+https://github.com/praeclarum/1brc
+
+# go
+https://github.com/shraddhaag/1brc
+https://github.com/mr-karan/1brc-go
+https://github.com/warpstreamlabs/onebrc
+
+# haskell
+https://github.com/hugodro/fudd-1brc
+
+# js
+https://github.com/HectorVeraO/nodejs-1brc
+
+# mpl
+https://github.com/shwestrick/mpl-1brc
+
+# perl
+https://github.com/rajivharlalka/1brc
+https://github.com/gustafe/1brc-perl
+
+# python
+https://github.com/ifnesi/1brc
+
+# ruby
+https://github.com/vanhalt/1brc
+
+# rust
+https://github.com/coriolinus/1brc
+https://github.com/RagnarGrootKoerkamp/1brc
+https://github.com/mtb0x1/1brc
+
+# swift
+https://github.com/pfy/1brc
+
+# ts
+https://github.com/disler/1brc-electron
+
+# zig
+https://github.com/candrewlee14/1brc-zig
+https://github.com/GoWind/1brc

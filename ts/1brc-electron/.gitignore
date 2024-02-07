@@ -1,0 +1,12 @@
+node_modules
+dist
+build
+
+.vscode
+.idea
+
+.env
+.aider*
+
+**m100mil.txt
+**/*.duckdb
