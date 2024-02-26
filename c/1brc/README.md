@@ -5,7 +5,7 @@
 
 The challenge: **compute simple floating-point math over 1 billion rows. As fast as possible, without dependencies.**
 
-Implemented in standard C99 with POSIX threads (however, no SIMD). `analyze.c` contains the fastest implementation, while `{1..7}.c` contain slower versions of the same program.
+Implemented in standard C11 with POSIX threads (however, no SIMD). `analyze.c` contains the fastest implementation, while `{1..7}.c` contain slower versions of the same program.
 
 I wrote up some implmentation details on my blog here: https://www.dannyvankooten.com/blog/2024/1brc/
 
@@ -30,9 +30,9 @@ This will create a 12 GB file with 1B rows named `measurements.txt` in your curr
 ```
 time bin/analyze measurements.txt >/dev/null
 
-real	0m1.590s
-user	0m21.489s
-sys	    0m0.644s
+real	0m1.392s
+user	0m0.000s
+sys	    0m0.010sys
 ```
 
 **Note:** the performance difference between a warm and a hot pagecache is quite extreme. Run `echo 3 > /proc/sys/vm/drop_caches` to drop your pagecache, then run the program twice in a row. It's not uncommon for the second run to be well over twice as fast.
