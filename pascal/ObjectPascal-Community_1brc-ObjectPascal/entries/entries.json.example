@@ -1,0 +1,40 @@
+{
+    "root-folder": "{...}1brc-ObjectPascal",
+    "entries-folder": "{...}1brc-ObjectPascal/entries",
+    "results-folder": "{...}1brc-ObjectPascal/results",
+    "bin-folder": "{...}1brc-ObjectPascal/bin",
+    "input": "/tmp/measurements-1_000_000_000.txt",
+    "hyperfine": "hyperfine -w 1 -r 10 -N -n '[[name]]' --export-json '[[results-json]]' '[[entry]]'",
+    "lazbuild": "{...}FreePascal_3.0/lazarus/lazbuild",
+    "output-hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "entries": [
+        {
+            "active": true,
+            "name": "Official Baseline",
+            "notes": "Beeing the last of all",
+            "compiler": "fpc",
+            "use-trunk": false,
+            "entry-folder": "../baseline/Lazarus/src",
+            "entry-binary": "baseline",
+            "lpi": "baseline.lpi",
+            "dproj": "",
+            "has-release": true,
+            "threads": 1,
+            "run-params": "-i [[input]]"
+        },
+        {
+            "active": true,
+            "name": "Gustavo Carreno",
+            "notes": "Using 30 threads",
+            "compiler": "fpc",
+            "use-trunk": false,
+            "entry-folder": "gcarreno/src",
+            "entry-binary": "gcarreno",
+            "lpi": "gcarreno.lpi",
+            "dproj": "",
+            "has-release": true,
+            "threads": 30,
+            "run-params": "-i [[input]] -t [[threads]]"
+        }
+    ]
+}

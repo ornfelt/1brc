@@ -5,6 +5,7 @@ https://github.com/austindonisan/1brc
 # c++
 https://github.com/lehuyduc/1brc-simd
 https://github.com/rockwotj/1brc
+https://github.com/HappyCerberus/1brc
 
 # c#
 https://github.com/buybackoff/1brc
@@ -12,9 +13,13 @@ https://github.com/noahfalk/1brc
 https://github.com/nietras/1brc.cs
 https://github.com/CameronAavik/1brc
 https://github.com/pedrosakuma/1brc
+https://github.com/Ephilipz/1brc.net
 
 # cobol
 https://github.com/nibrobb/1brc-cobol
+
+# cuda
+https://github.com/tspeterkim/cuda-1brc
 
 # elixir
 https://github.com/rrcook/brc
@@ -25,26 +30,39 @@ https://github.com/onno-vos-dev/1brc
 # f#
 https://github.com/praeclarum/1brc
 
+# general
+https://github.com/emiruz/1brc
+https://github.com/disler/1brc-electron
+https://github.com/unknowntpo/1brc
+
 # go
 https://github.com/shraddhaag/1brc
 https://github.com/mr-karan/1brc-go
 https://github.com/warpstreamlabs/onebrc
+https://github.com/benhoyt/go-1brc
+https://github.com/dhartunian/1brcgo
+https://github.com/ivan-ostymchuk/1brc
 
 # haskell
 https://github.com/hugodro/fudd-1brc
 
-# js
-https://github.com/HectorVeraO/nodejs-1brc
-
 # mpl
 https://github.com/shwestrick/mpl-1brc
+
+# pascal
+https://github.com/ObjectPascal-Community/1brc-ObjectPascal
 
 # perl
 https://github.com/rajivharlalka/1brc
 https://github.com/gustafe/1brc-perl
 
+# php
+https://github.com/realFlowControl/1brc
+
 # python
 https://github.com/ifnesi/1brc
+https://github.com/dougmercer-yt/1brc
+https://github.com/benhoyt/py-1brc
 
 # ruby
 https://github.com/vanhalt/1brc
@@ -53,12 +71,11 @@ https://github.com/vanhalt/1brc
 https://github.com/coriolinus/1brc
 https://github.com/RagnarGrootKoerkamp/1brc
 https://github.com/mtb0x1/1brc
+https://github.com/tumdum/1brc
+https://github.com/thebracket/one_billion_rows
 
 # swift
 https://github.com/pfy/1brc
-
-# ts
-https://github.com/disler/1brc-electron
 
 # zig
 https://github.com/candrewlee14/1brc-zig
