@@ -4,7 +4,6 @@ https://github.com/austindonisan/1brc
 
 # c++
 https://github.com/lehuyduc/1brc-simd
-https://github.com/rockwotj/1brc
 https://github.com/HappyCerberus/1brc
 
 # c#
