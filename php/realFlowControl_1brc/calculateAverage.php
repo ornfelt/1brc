@@ -12,19 +12,13 @@ $threads_cnt = (int) $argv[1];
 
 /**
  * Get the chunks that each thread needs to process with start and end position.
- * These positions are aligned to \n chars because we use `fgets()` to read
- * which itself reads till a \n character.
+ * These positions are aligned to \n chars (full lines).
  *
  * @return array<int, array{0: int, 1: int}>
  */
 function get_file_chunks(string $file, int $cpu_count): array {
     $size = filesize($file);
-
-    if ($cpu_count == 1) {
-        $chunk_size = $size;
-    } else {
-        $chunk_size = (int) ($size / $cpu_count);
-    }
+    $chunk_size = (int) ($size / $cpu_count);
 
     $fp = fopen($file, 'rb');
 
@@ -99,8 +93,7 @@ $chunks = get_file_chunks($file, $threads_cnt);
 $futures = [];
 
 for ($i = 0; $i < $threads_cnt; $i++) {
-    $runtime = new \parallel\Runtime();
-    $futures[$i] = $runtime->run(
+    $futures[$i] = \parallel\run(
         $process_chunk,
         [
             $file,
@@ -109,6 +102,7 @@ for ($i = 0; $i < $threads_cnt; $i++) {
         ]
     );
 }
+
 
 $results = [];
 
@@ -123,8 +117,7 @@ for ($i = 0; $i < $threads_cnt; $i++) {
             $result[3] += $measurement[3];
             if ($measurement[0] < $result[0]) {
                 $result[0] = $measurement[0];
-            }
-            if ($measurement[1] < $result[1]) {
+            } elseif ($measurement[1] < $result[1]) {
                 $result[1] = $measurement[1];
             }
         } else {
